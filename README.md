@@ -54,4 +54,8 @@ To use this notebook, you need to download the datasets and extract them. Then, 
 
 ## Author
 
-This notebook was created by Bouchene Mohammed Mehdi. For any questions or feedback, you can reach out to him. Enjoy face recognition!
+This notebook was created by Bouchene Mohammed Mehdi. For any questions or feedback, please contact him at bouchenemahdi@gmail.com.
+
+If this notebook proves helpful for your research or work, please acknowledge it by citing the following paper:
+
+Bouchene, Mohammed Mehdi. "Bayesian Optimization of Histogram of Oriented Gradients (HOG) Parameters for Facial Recognition." Available at SSRN: https://ssrn.com/abstract=4506361 or http://dx.doi.org/10.2139/ssrn.4506361
