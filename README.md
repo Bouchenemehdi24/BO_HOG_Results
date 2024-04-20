@@ -3,18 +3,16 @@ By Dr. Mohammed Mehdi Bouchene
 
 ## Results.ipynb Notebook
 
-A guide to replicate face recognition results using optimized HOG parameters and image size through Bayesian optimization, as detailed in the paper.
+A guide to replicate face recognition results using optimized HOG parameters and image size through Bayesian optimization, as detailed in the paper tested on ORL, Extended Yale B, and AR Face Database.
 
 ## FacePix.py Script
 
-The `facepix.py` script allows you to reproduce the results on the **FacePix dataset** using the HOG parameters and image size optimized through Bayesian optimization, as outlined in the paper.
-
-
+The facepix.py script is designed to replicate the results on the FacePix dataset utilizing the optimized Histogram of Oriented Gradients (HOG) parameters and image size determined through Bayesian optimization. This process is detailed in the paper. The script applies these optimized parameters to the FacePix dataset.
 
 
 ## Dependencies
 
-The notebook requires the following libraries:
+The script and the notebook require the following libraries:
 - `zipfile`
 - `rarfile`
 - `gdown`
