@@ -1,13 +1,13 @@
 # Bayesian Optimization of HOG Parameters for Facial Recognition
-By Mohammed Mehdi Bouchene
+By Dr. Mohammed Mehdi Bouchene
 
 ## Results.ipynb Notebook
 
-A guide to replicate face recognition results using optimized HOG parameters and image size through Bayesian optimization, as detailed in the paper by Bouchene[^1^][1].
+A guide to replicate face recognition results using optimized HOG parameters and image size through Bayesian optimization, as detailed in the paper.
 
 ## FacePix.py Script
 
-The `facepix.py` script allows you to reproduce the results on the **FacePix dataset** using the HOG parameters and image size optimized through Bayesian optimization, as outlined in Bouchene's work[^1^][1].
+The `facepix.py` script allows you to reproduce the results on the **FacePix dataset** using the HOG parameters and image size optimized through Bayesian optimization, as outlined in the paper.
 
 
 
