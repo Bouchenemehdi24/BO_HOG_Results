@@ -1,26 +1,16 @@
+# Bayesian Optimization of HOG Parameters for Facial Recognition
+By Mohammed Mehdi Bouchene
+
 ## Results.ipynb Notebook
 
-This notebook provides a comprehensive guide to reproduce the results of a face recognition system. The system uses Histogram of Oriented Gradients (HOG) parameters and image size that were optimized by Bayesian optimization as described in the paper by Bouchene, Mohammed Mehdi, "Bayesian Optimization of Histogram of Oriented Gradients (HOG) Parameters for Facial Recognition". The system is trained and evaluated on three different datasets: ORL, Extended Yale B, and AR Face Database.
+A guide to replicate face recognition results using optimized HOG parameters and image size through Bayesian optimization, as detailed in the paper by Bouchene[^1^][1].
 
-## FacePix.py
-The `facepix.py` script allows you to reproduce the results specifically on the **FacePix dataset**.:
+## FacePix.py Script
 
-1. **Data Preparation**:
-   - Downloads and extracts the FacePix dataset.
-   - Preprocesses the images (resizing, normalization, etc.).
+The `facepix.py` script allows you to reproduce the results on the **FacePix dataset** using the HOG parameters and image size optimized through Bayesian optimization, as outlined in Bouchene's work[^1^][1].
 
-2. **Feature Extraction**:
-   - Computes HOG features for each face image.
-   - Optionally applies dimensionality reduction (PCA).
 
-3. **Model Training and Evaluation**:
-   - Trains a Ridge Classifier on the HOG features.
-   - Evaluates the model's performance using cross-validation.
 
-4. **Visualization and Analysis**:
-   - Displays random face images.
-   - Visualizes the HOG features.
-   - Reports accuracy and other metrics.
 
 ## Dependencies
 
