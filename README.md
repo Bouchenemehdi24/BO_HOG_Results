@@ -1,6 +1,26 @@
-# Results Notebook
+## Results Notebook
 
 This notebook provides a comprehensive guide to reproduce the results of a face recognition system. The system uses Histogram of Oriented Gradients (HOG) parameters and image size that were optimized by Bayesian optimization as described in the paper by Bouchene, Mohammed Mehdi, "Bayesian Optimization of Histogram of Oriented Gradients (HOG) Parameters for Facial Recognition". The system is trained and evaluated on three different datasets: ORL, Extended Yale B, and AR Face Database.
+
+## FacePix.py
+The `facepix.py` script allows you to reproduce the results specifically on the **FacePix dataset**. Here's what it does:
+
+1. **Data Preparation**:
+   - Downloads and extracts the FacePix dataset.
+   - Preprocesses the images (resizing, normalization, etc.).
+
+2. **Feature Extraction**:
+   - Computes HOG features for each face image.
+   - Optionally applies dimensionality reduction (PCA).
+
+3. **Model Training and Evaluation**:
+   - Trains a Ridge Classifier on the HOG features.
+   - Evaluates the model's performance using cross-validation.
+
+4. **Visualization and Analysis**:
+   - Displays random face images.
+   - Visualizes the HOG features.
+   - Reports accuracy and other metrics.
 
 ## Dependencies
 
